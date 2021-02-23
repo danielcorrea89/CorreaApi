@@ -5,7 +5,6 @@ namespace CorreaApi
 {
     public class WeatherForecast
     {
-        [DisplayFormat(DataFormatString = "d")]
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
